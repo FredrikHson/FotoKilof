@@ -18,5 +18,5 @@ done
 cd ..
 
 # run FotoKilof
-python3 $MAIN &
+python3 $MAIN
 

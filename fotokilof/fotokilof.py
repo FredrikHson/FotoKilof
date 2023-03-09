@@ -199,11 +199,11 @@ def extension_from_file():
     """ set extension in ComboBox same as opened file"""
     path = os.path.splitext(file_in_path.get())
     extension = path[1].lower()
-    try:
-        co_apply_type.current(file_extension.index(extension))
-    except:
-        log.write_log("extension_from_file: wrong extension", "W")
-        co_apply_type.current(file_extension.index(".jpg"))
+    # try:
+        # co_apply_type.current(file_extension.index(extension))
+    # except:
+        # log.write_log("extension_from_file: wrong extension", "W")
+        # co_apply_type.current(file_extension.index(".jpg"))
 
 
 def path_to_file_out(resize):
